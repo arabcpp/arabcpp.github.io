@@ -11,12 +11,21 @@
     <meta name="theme-color" content="black" />
     <meta name="keywords" content="arabcpp, Arbaz, Arabcpp software" />
     <meta name="description" content="Arabaz Develops Apps for Android / ios and Linux" />
+    <link rel="stylesheet" href="src/css/main.css" type="text/css" />
 </head>
 
 <body class="body">
     <header class="header">
         <h1 class="title">Arbaz</h1>
+        <div class="menu" onclick="nav(true)">
+            <hr />
+            <hr />
+            <hr />
+        </div>
     </header>
+    <nav class="nav">
+        <button onclick="nav()">Close</button>
+    </nav>
     <main class="main">
         <article class="article">
             <section class="section">
@@ -27,5 +36,6 @@
     </main>
     <footer class="footer"></footer>
 </body>
+<script src="src/js/config.js"></script>
 
 </html>
